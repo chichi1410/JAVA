@@ -54,4 +54,9 @@ public class MyDate {
         }
     }
 
+    @Override
+    public String toString() {
+        return this.Day +"/" + this.Month + "/" + this.Year; // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+    }
+    
 }
