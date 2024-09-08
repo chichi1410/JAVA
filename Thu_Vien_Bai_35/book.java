@@ -55,4 +55,10 @@ public class book {
      public void inTenSach(){
          System.out.println(this.tenSach);
      }
+      public boolean kiemTraCungNamXuatBan(book sachKhac){
+          return this.namSanXuat == sachKhac.namSanXuat;        
+      }
+      public double giamGiaBan(double x){
+          return this.giaBan * (1-x/100);
+      }
 }
