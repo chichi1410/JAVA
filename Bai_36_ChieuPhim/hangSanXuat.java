@@ -9,23 +9,28 @@ package Bai_36_ChieuPhim;
  * @author Admin
  */
 public class hangSanXuat {
-    private String tenHangSanXuat , quocGia;
-    
-    public hangSanXuat(String tenHangSanXuat , String quocGia){
+
+    private String tenHangSanXuat, quocGia;
+
+    public hangSanXuat(String tenHangSanXuat, String quocGia) {
         this.tenHangSanXuat = tenHangSanXuat;
         this.quocGia = quocGia;
     }
-    public String getTenHangSanXuat(){
+
+    public String getTenHangSanXuat() {
         return tenHangSanXuat;
-        
+
     }
-    public void setTenHangSanXuat(String tenHangSanXuat){
+
+    public void setTenHangSanXuat(String tenHangSanXuat) {
         this.tenHangSanXuat = tenHangSanXuat;
     }
-    public String getQuocGia(){
+
+    public String getQuocGia() {
         return quocGia;
     }
-    public void setQuocGia(String quocGia){
+
+    public void setQuocGia(String quocGia) {
         this.quocGia = quocGia;
     }
 }
