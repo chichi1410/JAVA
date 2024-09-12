@@ -9,6 +9,7 @@ package Bai_37_QuanLySinhVien;
  * @author Admin
  */
 public class sinhVien {
+
     private String maSinhVien;
     private String hoTen;
     private double diemTrungBinh;
@@ -62,20 +63,23 @@ public class sinhVien {
     public void setNgaySinh(ngay ngaySinh) {
         this.ngaySinh = ngaySinh;
     }
-    
+
     // bai 1 lay ten khoa , sv
-    public String layTenKhoa(){
+    public String layTenKhoa() {
         return this.lop.getTenKhoa();
     }
-     public String layTenSinhVien(){
+
+    public String layTenSinhVien() {
         return this.getHoTen();
     }
+
     // bai 2 kiem tra co thi dat hay k
-    public boolean kiemTraThiDat(){
-        return diemTrungBinh >=5;
+    public boolean kiemTraThiDat() {
+        return diemTrungBinh >= 5;
     }
+
     // kiem tra cung ngay sinh
-    public boolean kiemTraCungNgaySinh(sinhVien sinhVienKhac){
+    public boolean kiemTraCungNgaySinh(sinhVien sinhVienKhac) {
         return this.ngaySinh.equals(sinhVienKhac.ngaySinh);
     }
 }
