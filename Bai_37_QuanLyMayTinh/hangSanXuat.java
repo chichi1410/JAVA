@@ -9,6 +9,7 @@ package Bai_37_QuanLyMayTinh;
  * @author Admin
  */
 public class hangSanXuat {
+
     private String tenHangSanXuat;
     private nation quocGia;
 
@@ -32,13 +33,15 @@ public class hangSanXuat {
     public void setQuocGia(nation quocGia) {
         this.quocGia = quocGia;
     }
+
     // lay ten quoc gia
-    public String layTenQuocGia(){
+    public String layTenQuocGia() {
         return this.quocGia.getTenQuocGia();
     }
+
     // lay ten hang san xuat
-    public String layTenHangSanXuat(){
+    public String layTenHangSanXuat() {
         return this.getTenHangSanXuat();
     }
-    
+
 }

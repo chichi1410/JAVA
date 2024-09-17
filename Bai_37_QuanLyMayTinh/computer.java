@@ -9,6 +9,7 @@ package Bai_37_QuanLyMayTinh;
  * @author Admin
  */
 public class computer {
+
     private hangSanXuat HangSanXuat;
     private day ngaySanXuat;
     private double giaBan;
@@ -53,10 +54,10 @@ public class computer {
     public void setThoiGianBaoHanh(double thoiGianBaoHanh) {
         this.thoiGianBaoHanh = thoiGianBaoHanh;
     }
-    
+
     // kiem tra gia thap hon
-    public boolean kiemTraGiaThapHon(computer MTKhac){
+    public boolean kiemTraGiaThapHon(computer MTKhac) {
         return this.giaBan < MTKhac.giaBan;
     }
-    
+
 }

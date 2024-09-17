@@ -9,10 +9,11 @@ package Bai_37_QuanLyMayTinh;
  * @author Admin
  */
 public class nation {
+
     private String maQuocGia;
     private String tenQuocGia;
-    
-    public nation(String maQuocGia , String tenQuocGia){
+
+    public nation(String maQuocGia, String tenQuocGia) {
         this.maQuocGia = maQuocGia;
         this.tenQuocGia = tenQuocGia;
     }
@@ -32,8 +33,5 @@ public class nation {
     public void setTenQuocGia(String tenQuocGia) {
         this.tenQuocGia = tenQuocGia;
     }
-    
-    
-    
-    
+
 }
