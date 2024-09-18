@@ -9,6 +9,7 @@ package Bai_37_QuanLyMayTinh;
  * @author Admin
  */
 public class day {
+    
     private int day ,month, year;
     
     public day (int day , int month , int year){
