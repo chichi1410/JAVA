@@ -9,5 +9,5 @@ package Bai_46_MayTinhBoTui_Interface;
  * @author Admin
  */
 public interface tinhNangA {
-    
+    public String cong(String cong);
 }

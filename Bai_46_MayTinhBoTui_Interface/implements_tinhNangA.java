@@ -8,6 +8,12 @@ package Bai_46_MayTinhBoTui_Interface;
  *
  * @author Admin
  */
-public class implements_tinhNangA {
+public class implements_tinhNangA implements tinhNangA {
+
+    @Override
+    public String cong(String cong) {
+        System.out.println("hello add them tinh nang ");
+        return cong;
+    }
     
 }
