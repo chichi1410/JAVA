@@ -26,5 +26,7 @@ public class timkiem {
         System.out.println("-------------tim kiem char -------------");
         System.out.println("vi tri ki tu c2 =(o) trong s1 la : " + s1.indexOf(c1));
         System.out.println("vi tri ki tu c2 =(o) bat dau tu vi tri 8 trong s1 la : " + s1.indexOf(c1 , 8));
+        
+        System.out.println("-------------tim kiem tu ohai sang trai lastindexof -------------");
     }
 }
