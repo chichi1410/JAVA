@@ -1,0 +1,26 @@
+compareTo: so sánh với
+equals  : so sánh có phân biệt chữ hoa
+equalsIgnoreCase : so sánh ko phân biệt chữ hoa
+regionMatches   : so sánh từ a đến b 
+startsWith : kiểm tra chuỗi bắt đầu bằng
+endswith : kiểm tra chuỗi kết thúc bằng
+
+// ghep cat noi chuoi 
+
+concat : nối chuỗi
++ : nối chuỗi
+replaceAll : thay thế 1 đoạn hoặc tất cả
+toLowerCase : hoa sang thường
+toUpperCase : thường sang hoa
+trim : xoá khoảng trắng dư thừa 
+substring(chuoi con ) : cat từ vị trí n trở đi
+
+// find
+indexOf : tìm kiếm vị trí của mảng con trong mảng cha
+lastindexOf :tìm kiếm vị trí của mảng con trong mảng cha từ phải sang trái
+
+//
+toString : xuat mang ra
+Arrays.sort()  : sap xep mang 
+Arrays.binarySearch   : tim kiem vi tri trong mang  
+Arrays.fill(ten mang , gia tri ): ham dien gia tri
