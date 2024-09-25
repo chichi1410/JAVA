@@ -24,3 +24,5 @@ toString : xuat mang ra
 Arrays.sort()  : sap xep mang 
 Arrays.binarySearch   : tim kiem vi tri trong mang  
 Arrays.fill(ten mang , gia tri ): ham dien gia tri
+
+split(" "): cat chuoi thanh mang tai nhung noi co space
