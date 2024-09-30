@@ -31,18 +31,20 @@ public class main_61 {
             System.out.println("nhap lua chon :");
             luaChon = scanner.nextInt();
             scanner.nextLine();
-            
+            String MSV, fullName;
+            int yearOfBirth;
+            float averageScore;
          
             switch (luaChon) {
                 case 1:
                     System.out.println("MSV : ");
-                    String MSV = scanner.nextLine();
+                     MSV = scanner.nextLine();
                     System.out.println("enter full name : ");
-                    String fullName = scanner.nextLine();
+                     fullName = scanner.nextLine();
                     System.out.println("year of birth : ");
-                    int yearOfBirth = scanner.nextInt();
+                     yearOfBirth = scanner.nextInt();
                     System.out.println("average score : ");
-                    float averageScore = scanner.nextFloat();
+                     averageScore = scanner.nextFloat();
                     
                     //
                     sinhVien sv = new sinhVien(MSV, fullName, yearOfBirth, averageScore);
@@ -63,11 +65,16 @@ public class main_61 {
                    
                     break;  
                 case 6:
+                    
                     System.out.println("kiem tra sinh vien co trong danh sach ko ");
-                    System.out.println("nhap ma sinh vien : ");
-                    String maSinhVien = scanner.nextLine();
-                    sinhVien SV = new sinhVien(maSinhVien);
-                    DSSV.kiemTraSV(SV);
+                    System.out.println("MSV : ");
+                    scanner.nextLine();
+                    String MSV = scanner.nextLine();
+                    
+                    
+                    
+                    
+                   
                     break;  
                 case 7:
                     System.out.println("so luong sinh vien : " +DSSV.layRaSoLuongSV());
