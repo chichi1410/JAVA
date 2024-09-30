@@ -26,3 +26,17 @@ Arrays.binarySearch   : tim kiem vi tri trong mang
 Arrays.fill(ten mang , gia tri ): ham dien gia tri
 
 split(" "): cat chuoi thanh mang tai nhung noi co space
+
+//
+quan ly thoi gian
+Date
+calendar
+currentTimeMillis()  : lay thoi gian hien tai  : import java.util.concurrent.TimeUnit
+timeUnit             : chuyen doi thoi gian vd tu day sang s
+DateFormat df = new SimpleDateFormat(); truyen kieu du lieu can chuyen vao day
+
+// 
+kieu du lieu enum
+tao ra 1 class gan giong vs class cha chua nhieu gia tri co the goi lai
+
+

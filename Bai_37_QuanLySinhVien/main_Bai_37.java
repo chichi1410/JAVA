@@ -11,7 +11,7 @@ package Bai_37_QuanLySinhVien;
 public class main_Bai_37 {
 
     public static void main(String[] args) {
-        ngay ngay1 = new ngay(14, 10, 2004);
+        ngay ngay1 = new ngay(23, 4, 2024);
         ngay ngay2 = new ngay(14, 10, 2004);
         ngay ngay3 = new ngay(16, 11, 2024);
 
