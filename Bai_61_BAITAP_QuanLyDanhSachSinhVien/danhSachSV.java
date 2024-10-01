@@ -38,5 +38,30 @@ public class danhSachSV {
     public int layRaSoLuongSV(){
         return this.danhSach.size();
     }
-
+    
+    //5: lam rong sinh vien trong danh sach
+    public void lamRongDanhSach(){
+        this.danhSach.remove(danhSach);
+    }
+    
+    // 6 kiem tra sinh vien co ton tai hay ko, dua tren ma sinh vien
+    public boolean kiemTraSV(sinhVien sv){
+        return this.danhSach.contains(sv);
+        
+        //contains dich = chua 
+    }
+     // 7. xoa 1 sv ra khoi danh sach dua tren ma sv
+     public boolean xoaSV(sinhVien sv){
+        return this.danhSach.remove(sv);
+        //contains dich = chua 
+    }
+     // 8 tim kiem sinh vien dua vao ten dc nhap vao tu ban phim
+     public void timKiemSV_TenSV(String sv){
+         for (sinhVien SVien : danhSach) {
+             if(SVien.getFullName().indexOf(sv) >= 0){
+                 System.out.println(SVien);
+             }
+         }
+        
+     } 
 }
