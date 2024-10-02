@@ -38,7 +38,9 @@ DateFormat df = new SimpleDateFormat(); truyen kieu du lieu can chuyen vao day
 // 
 kieu du lieu enum
 tao ra 1 class gan giong vs class cha chua nhieu gia tri co the goi lai
-
+//
+kiểu stack dữ liệu bỏ vào trc lấy ra sau
+Stack<integer> stackvd = new Stack<integer>();
 anh như con cá trong hồ sen của em
 chỉ vì cùng em chờ đợi dưới ánh trăng sáng kia
 bơi qua bốn mùa sen , hương thơm vẫn như ngày xưa
