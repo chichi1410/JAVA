@@ -5,9 +5,9 @@
 package Bai_63_Queue;
 
 import java.util.ArrayDeque;
-import java.util.Queue;
+//import java.util.Queue;
 import java.util.Deque;
-import java.util.LinkedList;
+//import java.util.LinkedList;
 
 // cái nào vào trc ra trc vào sau ra sau 
 // sử dụng Deque để thêm first là last 
@@ -30,6 +30,8 @@ public class DeQue {
 //            }
 //            System.out.println(ten);
 //        }
+ //       ----------------------------------------------------------------------
+        // trum dau => nguyen dai hoa => lieu nhu yen => nhi cau tu => trum cuoi
         while(true) {
             String ten1 = danhSachSV.pollLast();
             if(ten1 == null){
