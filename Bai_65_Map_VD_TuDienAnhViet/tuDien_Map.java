@@ -89,11 +89,6 @@ public class tuDien_Map {
                     TD.deleteAll();
                     
                     break;    
-                    
-                    
-                    
-                    
-                    
                 default:
                    
             }
