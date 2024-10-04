@@ -55,11 +55,27 @@ chờ em uốn lượn ở trong nước
  priorityqueue<String>  // sap xep thro thu tu trong bang chu cai
 
 // set 
+Set là một interface trong Java
+ đại diện cho một tập hợp các phần tử duy nhất (không chứa phần tử trùng lặp).
 set<String> ten = new hashset<String>();
 ko thể chứa 2 phần tử giống nhâu vd những con số ko dc trùng nhâu
 hashset  lưu trữ các phần tử nhưng ko sắp xếp
 treeset lưu trữ có sắp xếp
- 
+
+//map
+private Map<String , String> ten = new treeMap<String , String>();
+
+//generic
+<>
+//taofile
+ File file1 = new File("link");
+ .exists    : kiem tra co ton tai hay ko 
+  .mkdir  : tao ra 1 thu muc
+  .mkdirs  : tao ra nhieu thu muc
+  .createNewFile  : tao ra file co duoi nhu .java.txt...(bat buoc phai co try catch gioi
+ra bang cach bam vao bong den)
+
+  
 
 
  
