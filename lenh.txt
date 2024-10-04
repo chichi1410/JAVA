@@ -5,6 +5,7 @@ regionMatches   : so sánh từ a đến b
 startsWith : kiểm tra chuỗi bắt đầu bằng
 endswith : kiểm tra chuỗi kết thúc bằng
 
+
 // ghep cat noi chuoi 
 
 concat : nối chuỗi
@@ -14,6 +15,7 @@ toLowerCase : hoa sang thường
 toUpperCase : thường sang hoa
 trim : xoá khoảng trắng dư thừa 
 substring(chuoi con ) : cat từ vị trí n trở đi
+isempty() : trả về true nếu tập hợp k chứa phần tử nào
 
 // find
 indexOf : tìm kiếm vị trí của mảng con trong mảng cha
@@ -45,3 +47,19 @@ anh như con cá trong hồ sen của em
 chỉ vì cùng em chờ đợi dưới ánh trăng sáng kia
 bơi qua bốn mùa sen , hương thơm vẫn như ngày xưa
 chờ em uốn lượn ở trong nước
+
+
+//
+ queue   linkedlist<String>
+ deque    Arraydeque<String> // co the chen o last hoac first
+ priorityqueue<String>  // sap xep thro thu tu trong bang chu cai
+
+// set 
+set<String> ten = new hashset<String>();
+ko thể chứa 2 phần tử giống nhâu vd những con số ko dc trùng nhâu
+hashset  lưu trữ các phần tử nhưng ko sắp xếp
+treeset lưu trữ có sắp xếp
+ 
+
+
+ 
