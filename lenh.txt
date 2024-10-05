@@ -74,7 +74,8 @@ private Map<String , String> ten = new treeMap<String , String>();
   .mkdirs  : tao ra nhieu thu muc
   .createNewFile  : tao ra file co duoi nhu .java.txt...(bat buoc phai co try catch gioi
 ra bang cach bam vao bong den)
-
+canExcute()  : kiem tra file co the thuc thi
+getAbsolutePath : lay duong dan
   
 
 
