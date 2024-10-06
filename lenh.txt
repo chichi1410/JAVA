@@ -16,6 +16,7 @@ toUpperCase : thường sang hoa
 trim : xoá khoảng trắng dư thừa 
 substring(chuoi con ) : cat từ vị trí n trở đi
 isempty() : trả về true nếu tập hợp k chứa phần tử nào
+ String chuoi = String.join(" ", mangChu); // Ngăn cách các phần tử bằng dấu cách
 
 // find
 indexOf : tìm kiếm vị trí của mảng con trong mảng cha
@@ -76,7 +77,11 @@ private Map<String , String> ten = new treeMap<String , String>();
 ra bang cach bam vao bong den)
 canExcute()  : kiem tra file co the thuc thi
 getAbsolutePath : lay duong dan
-  
-
-
- 
+getName           : lay ten file
+isDirectory     : kiem tra day la thu muc
+isfile            `: kiem tra day la file
+Bai_java68 chua hoc xong
+// delete file
+deleteOnExit()   : xoa thu muc rong
+muon xoa thu muc co file benh trong thi phai tao ham xoa file tu trong ra ngoai
+      
