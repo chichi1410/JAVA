@@ -32,10 +32,11 @@ split(" "): cat chuoi thanh mang tai nhung noi co space
 
 //
 quan ly thoi gian
-Date
+Date                  
 calendar
-currentTimeMillis()  : lay thoi gian hien tai  : import java.util.concurrent.TimeUnit
-timeUnit             : chuyen doi thoi gian vd tu day sang s
+currentTimeMillis()  : lay thoi gian hien tai  : import java.util.Date
+(timeUnit             : chuyen doi thoi gian vd tu day sang s 
+import java.util.concurrent.TimeUnit; )
 DateFormat df = new SimpleDateFormat(); truyen kieu du lieu can chuyen vao day
 
 // 
