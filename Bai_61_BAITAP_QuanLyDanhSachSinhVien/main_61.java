@@ -4,6 +4,7 @@
  */
 package Bai_61_BAITAP_QuanLyDanhSachSinhVien;
 
+import java.io.File;
 import java.util.Scanner;
 
 /**
@@ -27,8 +28,8 @@ public class main_61 {
                     + "6: kiem tra sinh vien co ton tai trong danh sach hay k, "
                     + "dua tren msv\n"
                     + "7: xoa 1 sv ra khoi danh sach dua tren ma sv\n"
-                    + "8: tim kiem sinh vien dua tren ten da nhap tu ban phim\n"
-                    + "9: xuat ra danh sach sinh vien co diem tu cao den thap\n"
+                    + "8: tim kiem sinh vien dua tren ten da nhap tu ban phim\n"                 
+                    + "9: in data ra file\n"
                     + "0: thoat chuong trinh");
             System.out.println("nhap lua chon :");
             luaChon = scanner.nextInt();
@@ -108,6 +109,12 @@ public class main_61 {
 
                     DSSV.timKiemSV_TenSV(hoTenSV);
 
+                    break;
+                case 9:
+                    System.out.println("nhap vao duong dan file : ");
+                    String file = scanner.nextLine();
+                    File f = new File(file);
+                    DSSV.ghiVaoFile(f);
                     break;
                 default:
                 //throw new AssertionError();

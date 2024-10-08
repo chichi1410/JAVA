@@ -4,6 +4,10 @@
  */
 package Bai_61_BAITAP_QuanLyDanhSachSinhVien;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
 public class danhSachSV {
@@ -64,4 +68,16 @@ public class danhSachSV {
          }
         
      } 
+     public void ghiVaoFile(File file){
+         try {
+             OutputStream os = new FileOutputStream(file);
+             ObjectOutputStream oos= new ObjectOutputStream(os);
+             for (sinhVien vien : danhSach) {
+                 oos.writeObject(vien);
+             }
+             oos.flush();
+             oos.close();
+         } catch (Exception e) {
+         }
+     }
 }
