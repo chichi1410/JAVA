@@ -85,13 +85,13 @@ public class danhSachSV {
          }
      }
 
-//    void docDuLieuTuFile(File f1) {
-//        try {
-//            InputStream is = new FileInputStream(f1);
-//            ObjectInputStream ois = new ObjectInputStream(is);
-//            sinhVien sv =null;
+    void docDuLieuTuFile(File f1) {
+        try {
+            InputStream is = new FileInputStream(f1);
+            ObjectInputStream ois = new ObjectInputStream(is);
+            sinhVien sv = null;
 //            while(true){
-//                Object oj = ois.readObject(); 
+                sinhVien  svArr[] = (sinhVien[]) ois.readObject(); 
 //                if(oj == null){
 //                    break;
 //                }
@@ -99,35 +99,17 @@ public class danhSachSV {
 //                    sv = (sinhVien) oj;
 //                    this.danhSach.add(sv);
 //                }  
-//               
+                for (sinhVien vien : svArr) {
+                    System.out.println(vien.toString());
+                }
 //            }
-//            ois.close();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//    }
-      void docDuLieuTuFile(File f1) {
-    try {
-        InputStream is = new FileInputStream(f1);
-        ObjectInputStream ois = new ObjectInputStream(is);
-        sinhVien sv = null;
-
-        // Sử dụng vòng lặp để đọc nhiều đối tượng cho đến khi gặp EOFException
-        while (true) {
-            try {
-                Object oj = ois.readObject(); // Đọc từng đối tượng từ file
-                sv = (sinhVien) oj;
-                this.danhSach.add(sv); // Thêm đối tượng vào danh sách
-            } catch (EOFException eof) {
-                // Đã đọc đến hết file
-                break;
-            }
+            ois.close();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-
-        ois.close();
-    } catch (Exception e) {
-        e.printStackTrace();
     }
-}
+
+   
+   
  
 }

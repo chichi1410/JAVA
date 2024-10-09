@@ -5,12 +5,12 @@
 package Bai_61_BAITAP_QuanLyDanhSachSinhVien;
 
 import java.util.Objects;
-
+import java.io.Serializable;
 /**
  *
  * @author Admin
  */
-public class sinhVien implements Comparable<sinhVien> , Serializableri{ // muon docj file phai co dong nay
+public class sinhVien implements Comparable<sinhVien> , Serializable { // muon docj file phai co dong nay
     private String MSV;
     private String fullName;
     private int yearOfBirth;
