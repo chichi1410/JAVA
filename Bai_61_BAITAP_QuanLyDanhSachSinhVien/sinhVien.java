@@ -10,7 +10,7 @@ import java.util.Objects;
  *
  * @author Admin
  */
-public class sinhVien implements Comparable<sinhVien>{
+public class sinhVien implements Comparable<sinhVien> , Serializableri{ // muon docj file phai co dong nay
     private String MSV;
     private String fullName;
     private int yearOfBirth;
