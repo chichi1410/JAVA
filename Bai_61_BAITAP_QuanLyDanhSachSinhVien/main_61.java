@@ -30,6 +30,7 @@ public class main_61 {
                     + "7: xoa 1 sv ra khoi danh sach dua tren ma sv\n"
                     + "8: tim kiem sinh vien dua tren ten da nhap tu ban phim\n"                 
                     + "9: in data ra file\n"
+                    + "10.doc du lieu vua in ra\n"
                     + "0: thoat chuong trinh");
             System.out.println("nhap lua chon :");
             luaChon = scanner.nextInt();
@@ -116,6 +117,13 @@ public class main_61 {
                     File f = new File(file);
                     DSSV.ghiVaoFile(f);
                     break;
+                case 10:
+                    System.out.println("nhap vao duong dan file : ");
+                    String file1 = scanner.nextLine();
+                    File f1 = new File(file1);
+                    DSSV.docDuLieuTuFile(f1);
+                    break;
+                    
                 default:
                 //throw new AssertionError();
             }

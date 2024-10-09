@@ -24,9 +24,11 @@ public class Main_73 {
             oos.writeObject(sv);
             oos.flush();
             oos.close();
+            
         } catch (Exception e) {
             
             // qua bai quan ly sinh vien de xem cach ghi file doi tuong sinh vien
+            
         }
     }
 }

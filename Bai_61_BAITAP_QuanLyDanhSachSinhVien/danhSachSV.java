@@ -4,8 +4,12 @@
  */
 package Bai_61_BAITAP_QuanLyDanhSachSinhVien;
 
+import java.io.EOFException;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.ObjectInputStream;
 import java.io.OutputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
@@ -80,4 +84,50 @@ public class danhSachSV {
          } catch (Exception e) {
          }
      }
+
+//    void docDuLieuTuFile(File f1) {
+//        try {
+//            InputStream is = new FileInputStream(f1);
+//            ObjectInputStream ois = new ObjectInputStream(is);
+//            sinhVien sv =null;
+//            while(true){
+//                Object oj = ois.readObject(); 
+//                if(oj == null){
+//                    break;
+//                }
+//                if(oj != null){
+//                    sv = (sinhVien) oj;
+//                    this.danhSach.add(sv);
+//                }  
+//               
+//            }
+//            ois.close();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
+      void docDuLieuTuFile(File f1) {
+    try {
+        InputStream is = new FileInputStream(f1);
+        ObjectInputStream ois = new ObjectInputStream(is);
+        sinhVien sv = null;
+
+        // Sử dụng vòng lặp để đọc nhiều đối tượng cho đến khi gặp EOFException
+        while (true) {
+            try {
+                Object oj = ois.readObject(); // Đọc từng đối tượng từ file
+                sv = (sinhVien) oj;
+                this.danhSach.add(sv); // Thêm đối tượng vào danh sách
+            } catch (EOFException eof) {
+                // Đã đọc đến hết file
+                break;
+            }
+        }
+
+        ois.close();
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+}
+ 
 }
