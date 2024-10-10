@@ -23,7 +23,7 @@ public class main_61 {
                     + "1: them sinh vien vao sanh sach\n"
                     + "2: in danh sach sinh vien ra man hinh\n"
                     + "3: kiem tra danh sach co rong hay khong\n"
-                    + "4: lay ra so luong sinh vien trong danh sach\n"
+                    + "4: lay ra so luong sinh vien trong1 danh sach\n"
                     + "5: lam rong sinh vien trong danh sach\n"
                     + "6: kiem tra sinh vien co ton tai trong danh sach hay k, "
                     + "dua tren msv\n"
@@ -32,6 +32,7 @@ public class main_61 {
                     + "9: in data ra file\n"
                     + "10.doc du lieu vua in ra\n"
                     + "0: thoat chuong trinh");
+            // duong dan : C:\\Users\\Admin\\Desktop\\helo.txt
             System.out.println("nhap lua chon :");
             luaChon = scanner.nextInt();
             scanner.nextLine();
