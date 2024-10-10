@@ -15,7 +15,8 @@ public class view {
         JFrame jf = new JFrame();
         jf.setTitle("cua so java"); // set tieu de
         jf.setSize(600,400); // chieu ngang 600 doc 400
-        jf.setLocation(300 ,200); // set vi tri hien thi cua so (từ ở góc sang chính giữa)
+      //  jf.setLocation(300 ,200); // set vi tri hien thi cua so (từ ở góc sang chính giữa)
+        jf.setLocationRelativeTo(null); // set vi tri hien thi cawn giuwa
         
         
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
