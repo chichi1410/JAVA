@@ -31,8 +31,8 @@ public class MyWindow extends JFrame{
     }
     public static void main(String[] args) {
         MyWindow mw = new MyWindow();
-        mw.showIt();
+//        mw.showIt();
 //        mw.showIt("hello word");
-//        mw.showIt("hello word" , 600 , 400);
+        mw.showIt("hello word" , 600 , 400);
     }
 }
