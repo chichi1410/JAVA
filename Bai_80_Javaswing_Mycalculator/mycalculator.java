@@ -21,6 +21,7 @@ public class mycalculator extends JFrame{
     public mycalculator(){
         this.setTitle("mycalculator");
         this.setSize(300 , 300);
+        this.setLocationRelativeTo(null);
         JTextField jTextField = new JTextField();
         JPanel jPanel_head = new JPanel();
         jPanel_head.setLayout(new BorderLayout());

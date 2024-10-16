@@ -99,3 +99,6 @@ PW.close();     dong file lai
  List<String> alltext = Files.readAllLines(f1.toPath() , StandardCharsets.UTF_8);
 // sử dụng list để chứa text , sử dụng readallline de doc , su dung bảng mã utf - 8
 //sau do su dụng for de duyet tung phan tu roi xuat
+
+// javaSwing
+//JFrame
