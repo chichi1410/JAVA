@@ -1,0 +1,14 @@
+git clone (link)
+cd test // vào thư mục có tên test
+git status // kiểm tra thư mục trong file
+git add (tên src)
+git commit -m"comment"
+git push origin main
+type nul > 'tenfile'   // tao file moi 
+git merge ' ten nhanh' // day file o nhanh ve main sau do push
+
+git init
+git add .
+git remote add origin 'link du an'
+git push origin master
+ 
