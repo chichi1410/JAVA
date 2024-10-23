@@ -1,0 +1,2 @@
+chuyen van ban text thanh value
+chyen j textfield thanh bien toan cuc
