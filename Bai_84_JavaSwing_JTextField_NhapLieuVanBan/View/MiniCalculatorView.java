@@ -105,19 +105,19 @@ public class MiniCalculatorView extends JFrame{
        
     }
     public void minus() { // tru di 
-        this.answer = this.FirstValue - this.SecondValue;
+     
     }
     public void multiply() { // nhan them 
-        this.answer = this.FirstValue * this.SecondValue;
+      
     }
     public void divide () { // chia
-        this.answer = this.FirstValue / this.SecondValue;
+      
     }
     public void pow() {// mu
-        this.answer = Math.pow(this.FirstValue, this.SecondValue);
+        
     }
     public void mod(){ // chia lay du
-        this.answer = this.FirstValue % this.SecondValue;
+  
     }
     
 }
