@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Bai_84_JavaSwing_JTextField_NhapLieuVanBan.controller;
 
 import Bai_84_JavaSwing_JTextField_NhapLieuVanBan.View.MiniCalculatorView;
@@ -21,7 +18,20 @@ public class MiniCalculatorListener implements ActionListener{
     
     @Override
     public void actionPerformed(ActionEvent e) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        String button = e.getActionCommand();
+        if(button.equals("+")){
+         this.MiniCalculatorView.plus();
+        }else if(button.equals("-")){
+            this.MiniCalculatorView.minus();
+        }else if(button.equals("*")){
+            this.MiniCalculatorView.multiply();
+        }else if(button.equals("/")){
+            this.MiniCalculatorView.divide();
+        }else if(button.equals("^")){
+            this.MiniCalculatorView.pow();
+        }else if(button.equals("%")){
+            this.MiniCalculatorView.mod();
+        }
     }
     
 }
