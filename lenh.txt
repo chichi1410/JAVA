@@ -1,5 +1,13 @@
+tính đóng gói private
 phương thức trừu tượng abtract
+tính đa hình (nạp chồng phương thức) overloading
+// cùng tên nhưng khác kiểu dữ liệu
+overriding (phuong thuc ghi de)
+tính kế thừa exten
+
 interface vs implenment
+
+
 compareTo: so sánh với
 equals  : so sánh có phân biệt chữ hoa
 equalsIgnoreCase : so sánh ko phân biệt chữ hoa
