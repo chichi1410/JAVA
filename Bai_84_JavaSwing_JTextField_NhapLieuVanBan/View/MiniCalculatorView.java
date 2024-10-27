@@ -153,5 +153,5 @@ public class MiniCalculatorView extends JFrame {
         this.miniCalculatorModel.mod();
         this.jTextField_answer.setText(this.miniCalculatorModel.getAnswer() + "");
     }
-
+//
 }
