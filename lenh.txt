@@ -1,3 +1,10 @@
+class 
+method
+valiable : biến
+value  : giá trị
+
+
+
 tính đóng gói private
 phương thức trừu tượng abtract
 tính đa hình (nạp chồng phương thức) overloading
