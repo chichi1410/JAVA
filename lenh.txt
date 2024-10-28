@@ -118,6 +118,7 @@ mô hình MCV
 model  : 1 class để biểu diễn và lưu trữ dữ liệu
 view   : giao diện cho người dùng
 controller  : chịu trách nhiệm điều kiển luồng giữa model và view
+JButton
 
 counter  :thường được sử dụng để tăng cường quản lý tài nguyên và kiểm soát logic 
 trong chương trình.
