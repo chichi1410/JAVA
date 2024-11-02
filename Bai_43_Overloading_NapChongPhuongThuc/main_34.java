@@ -12,7 +12,7 @@ public class main_34 {
        
           System.out.println("tim min 4.5 va 5.5 = " +mm.timMin(4.5, 5.5) );
         
-        System.out.println("tong 4 va 5 = " +mm.tinhTong( 4,5) );
+        System.out.println("tong 4 va 5 = " + mm.tinhTong( 4,5) );
         double arr[] = new double[] {5,5,4};
         System.out.println("tong arr[5,5,4] = " +mm.tinhTong(arr) );
         

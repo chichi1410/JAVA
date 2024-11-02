@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Bai_Tap_Tren_Lop.bai1;
+package Bai_Tap_Tren_Lop.bai1_huongDoiTuong;
 
 /**
  *
