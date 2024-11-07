@@ -14,6 +14,8 @@ tính kế thừa exten
 
 interface vs implenment
 
+tinh trừu tượng abtract
+
 
 compareTo: so sánh với
 equals  : so sánh có phân biệt chữ hoa
@@ -130,6 +132,7 @@ JButton
 counter  :thường được sử dụng để tăng cường quản lý tài nguyên và kiểm soát logic 
 trong chương trình.
 actionListener : nuts bấm hành động gán ở implements
+
 
 
 
