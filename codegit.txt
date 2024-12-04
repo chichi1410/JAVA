@@ -7,9 +7,24 @@ git push origin main
 type nul > 'tenfile'   // tao file moi 
 git merge ' ten nhanh' // day file o nhanh ve main sau do push
 
+// lenh cmd
+ cd tele den
+ cd .. tele nguoc
+ hiển thị tất cả thư mục : dir
+ hiển thị tất cả thư mục trên linux hoặc macos : ls
+ tao 1 thu muc moi : mkdir 'tenthumuc'
+ echo. > hello.txt : tao 1 file txt
+ echo "noi dung"  : in ra man hinh noi dung
+ echo "noi dung" > "hello.txt"  : chi dinh huong xuat noi dung trong file txt , co the ghi de
+ 
+
+// tao git moi
 git init
 git add .
 git remote add origin 'link du an'
 git push origin master
-windy.com
+
+
+
+
  

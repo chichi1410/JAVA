@@ -1,0 +1,7 @@
+Modifier	Trong cùng lớp	Trong cùng gói	Lớp con (khác gói)	Bên ngoài gói
+public	✅	✅	✅	✅
+private	✅	❌	❌	❌
+protected✅	✅	✅	❌
+default	✅	✅	❌	❌
+
+thuộc tính  : ten tuổi ()

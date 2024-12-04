@@ -14,7 +14,8 @@ tính kế thừa exten
 
 interface vs implenment
 
-tinh trừu tượng abtract
+tinh trừu tượng abstract
+
 
 
 compareTo: so sánh với

@@ -12,6 +12,7 @@ import Bai_81_JavaSwing_MoHinh_MCV.View.CounterView;
  * @author Admin
  */
 public class test {
+
     public static void main(String[] args) {
         CounterModel ct = new CounterModel();
         ct.increment();
@@ -20,7 +21,7 @@ public class test {
         System.out.println(ct.getValue());
         ct.decrement();
         System.out.println(ct.getValue());
-        
+
         CounterView ctw = new CounterView();
     }
 }
