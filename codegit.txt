@@ -15,7 +15,11 @@ git merge ' ten nhanh' // day file o nhanh ve main sau do push
  tao 1 thu muc moi : mkdir 'tenthumuc'
  echo. > hello.txt : tao 1 file txt
  echo "noi dung"  : in ra man hinh noi dung
- echo "noi dung" > "hello.txt"  : chi dinh huong xuat noi dung trong file txt , co the ghi de
+ echo "noi dung" > "hello.txt"  : chi dinh huong xuat noi dung trong file txt ,overrite
+ echo "noi dung" >> "hello.txt"  : chi dinh huong xuat noi dung trong file txt , new line
+ cat 'tenfile': hien thi noi dung // ung dung trong git bash
+ type 'tenfile' : hien thi noi dung // dùng trên window
+ diff 'file1.txt' 'file2.txt' : so sanh su khac biet giua 2 file txt
  
 
 // tao git moi
