@@ -5,3 +5,4 @@ protected✅	✅	✅	❌
 default	✅	✅	❌	❌
 
 thuộc tính  : ten tuổi ()
+methos

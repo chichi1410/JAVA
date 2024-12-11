@@ -6,6 +6,8 @@ git commit -m"comment"
 git push origin main
 type nul > 'tenfile'   // tao file moi 
 git merge ' ten nhanh' // day file o nhanh ve main sau do push
+git --help : tro giup huong dan
+git log hien thi lịch sử các commit
 
 // lenh cmd
  cd tele den
@@ -20,6 +22,8 @@ git merge ' ten nhanh' // day file o nhanh ve main sau do push
  cat 'tenfile': hien thi noi dung // ung dung trong git bash
  type 'tenfile' : hien thi noi dung // dùng trên window
  diff 'file1.txt' 'file2.txt' : so sanh su khac biet giua 2 file txt
+
+
  
 
 // tao git moi
@@ -30,5 +34,11 @@ git push origin master
 
 
 
-
+// cac tu khoa git co ban 
  
+repository : kho luu tru
+commit : mot don vi lam viec
+branch : nhanh
+main / master : ten cua nhanh
+merge / rebase : ket hop 2 nhanh 
+develop : ten cua nhanh (lap trinh vien )
